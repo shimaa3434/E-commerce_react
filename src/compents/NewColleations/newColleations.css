@@ -1,0 +1,35 @@
+.new_colleations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* height: 90vh; */
+    margin-bottom: 100px;
+}
+.new_colleations h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.new_colleations hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.collections{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    /* align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
